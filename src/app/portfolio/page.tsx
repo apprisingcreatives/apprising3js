@@ -23,7 +23,7 @@ export default async function PortfolioPage() {
 
   return (
     <>
-      <Navbar user={false} />
+      <Navbar />
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800">
         <div className="container mx-auto px-4 py-16">
           <div className="max-w-6xl mx-auto">

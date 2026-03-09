@@ -67,7 +67,7 @@ function BlogContent({ blogPosts }: { blogPosts: any[] }) {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800">
-      <Navbar user={false} />
+      <Navbar />
       <div className="container mx-auto px-4 py-16">
         <div className="max-w-6xl mx-auto">
           {/* Header */}

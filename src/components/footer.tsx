@@ -84,14 +84,6 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/careers"
-                  className="text-sm text-white/40 hover:text-cyan-400 transition-colors"
-                >
-                  Careers
-                </Link>
-              </li>
-              <li>
-                <Link
                   href="/contact"
                   className="text-sm text-white/40 hover:text-cyan-400 transition-colors"
                 >

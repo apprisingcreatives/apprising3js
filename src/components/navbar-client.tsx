@@ -59,9 +59,7 @@ export default function NavbarClient({ user }: { user: boolean }) {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 h-[72px] ${
-        scrolled ? "glass-morphic border-b border-white/10" : "bg-transparent"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 h-[72px] glass-morphic border-b border-white/10`}
     >
       <div className="max-w-[1400px] mx-auto px-6 md:px-10 h-full flex items-center justify-between">
         {/* Logo */}
@@ -81,7 +79,7 @@ export default function NavbarClient({ user }: { user: boolean }) {
               className={`text-sm font-medium transition-colors duration-200 ${
                 activeSection === link.href.replace("#", "")
                   ? "text-cyan-400"
-                  : "text-white/70 hover:text-white"
+                  : "text-white/80 hover:text-white"
               }`}
             >
               {link.label}
